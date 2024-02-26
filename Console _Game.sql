@@ -2,14 +2,6 @@ CREATE DATABASE CONSOLE_GAME;
 USE CONSOLE_GAME;
 
 CREATE TABLE P9_ConsoleDates (
-	Platform VARCHAR(4) NOT NULL, 
-	FirstRetailAvailability DATE NOT NULL, 
-	Discontinued DATE, 
-	UnitsSoldMillions DECIMAL(38, 2) NOT NULL, 
-	Comment VARCHAR(37)
-);
-
-CREATE TABLE P9_ConsoleDates (
    Platform VARCHAR(4) NOT NULL, 
    FirstRetailAvailability DATE NOT NULL, 
    Discontinued DATE, 
